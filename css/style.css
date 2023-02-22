@@ -7,7 +7,7 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  border: 5px solid red;
+
 
 }
 
@@ -44,7 +44,7 @@ header {
   cursor: pointer;
   color: rgba(77, 77, 252, 0.966);
   font-size: 2.5rem;
-  background-color:rgba(30, 255, 0, 0.822) ;
+  background-color: rgba(30, 255, 0, 0.822);
   border-radius: 60%;
 }
 
@@ -72,17 +72,138 @@ li a:hover {
   color: #EDF0F5;
   font-size: 2.25rem;
 }
-.burger_button{
+
+.burger_button {
   font-size: 2rem;
   color: white;
   float: right;
   line-height: 10px;
   margin-right: 10px;
   cursor: pointer;
-  display: none;}
+  display: none;
+}
 
- #burger_bar{
-    display: none;}
+#burger_bar {
+  display: none;
+}
 
 
-/* header */
+/* section */
+
+.section_1 {
+  width: 100%;
+  background-image: url('./img/main');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.sections_text {
+  color: #FFFFFF;
+  font-size: 6rem;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-40%);
+  max-width: 100%;
+  animation: animate 6s 2s;
+
+}
+
+@keyframes animate {
+
+  from {
+    color: blue;
+    font-size: 0rem;
+    box-shadow: 0px 0px 50px 2px orangered, 0px 0px 45px 5px yellow, 0px 0px 40px 10px green, 0px 0px 35px 15px rgb(0, 247, 255), 0px 0px 30px 20px blue, 0px 0px 25px 25px purple, 0px 0px 20px 5px inset orangered, 0px 0px 30px 10px inset yellow, 0px 0px 40px 15px inset green, 0px 0px 45px 20px inset rgb(0, 255, 221), 0px 0px 50px 25px inset blue, 0px 0px 60px 30px purple inset;
+
+
+  }
+
+  to {
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    border-radius: 30px;
+  }
+}
+
+/* footer */
+
+
+footer {
+  max-width: 100%;
+  background-color: #C0BA8F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 77px 100px 77px 100px;
+
+}
+
+.footer_logo {
+
+  font-size: 2.25rem;
+  color: #F7F5F2;
+
+}
+
+.footer_text {
+  font-family: 'Rubik', normal;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #DDDBCB;
+}
+
+.footer_span {
+  font-family: 'Rubik', normal;
+  text-decoration-line: underline;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #DDDBCB;
+}
+
+.footer_icones {
+
+  font-size: 2.25rem;
+  display: flex;
+  gap: 47px;
+
+}
+
+.footer_icone {
+  color: #E3F6F6;
+  max-width: 100%;
+  transition: all 0.3s linear;
+}
+
+.footer_icone:hover {
+  transform: scale(1.5);
+}
+
+#messenger:hover {
+  color: rgb(46, 46, 255);
+}
+
+#instagram:hover {
+  color: #ff006a;
+
+}
+
+#youtube:hover {
+  color: red;
+}
