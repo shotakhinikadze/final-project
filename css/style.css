@@ -42,10 +42,9 @@ header {
 
 .header_logo:hover {
   cursor: pointer;
-  color: rgba(77, 77, 252, 0.966);
-  font-size: 2.5rem;
-  background-color: rgba(30, 255, 0, 0.822);
-  border-radius: 60%;
+  color: aqua;
+  border-radius: 50px;
+  text-shadow: 3px 3px 8px blue, -3px -3px 15px aquamarine;
 }
 
 ul {
