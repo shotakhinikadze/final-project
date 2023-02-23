@@ -1,14 +1,11 @@
 body {
-  font-family: 'Rubik', sans-serif;
-
+  font-family: 'Rubik', normal;
+font-weight: 700;
 }
 
 .conteiner {
   max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
-
-
 }
 
 /* header */
@@ -205,4 +202,97 @@ footer {
 
 #youtube:hover {
   color: red;
+}
+
+
+
+/* artworks_page */
+
+ 
+/* section */
+
+.sections_div {
+
+  width: 69%;
+  background-color: #623932;
+  padding: 35px 38px 28px 34px;
+  text-align: center;
+  position: absolute;
+}
+.artwork_head{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 41px;   
+}
+.artworks_maintext{
+  font-family: 'rubik';
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 1.25rem;
+  line-height: 24px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+/* sections menu */
+
+.sections_meniu{
+  width: 100%;
+  padding: 70px;
+  background-color: #6A7B98;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sections_meniu_head{
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+.laerge_card{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  width: 30%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 33px 28px 30px 28px;
+    margin-top: 150px;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 5px 10px 20px #1f2e41, -3px -7px 15px #67b0d1;
+}
+.img_div{
+  width: 100%;
+  Height: 289px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.img_div:hover{
+  transform: scale(1.09);
+  transition: 3s;
+
+
+}
+.images{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.images:hover{
+  filter: grayscale(85%);
+  transform: scale(1.23);
+  transition: 3s; 
+}
+.menus_texts{
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #82625D;
+  text-align: center;
+  margin-top: 56px;
 }
