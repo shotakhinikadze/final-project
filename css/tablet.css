@@ -1,0 +1,516 @@
+@media(max-width: 1200px) {
+
+
+    /* .section */
+
+    .sections_text {
+        font-size: 5rem;
+        top: 50%;
+    }
+
+    @keyframes animate {
+        from {
+            color: blue;
+            font-size: 0rem;
+            box-shadow: 0px 0px 50px 2px orangered, 0px 0px 45px 5px yellow, 0px 0px 40px 10px green, 0px 0px 35px 15px rgb(0, 247, 255), 0px 0px 30px 20px blue, 0px 0px 25px 25px purple, 0px 0px 20px 5px inset orangered, 0px 0px 30px 10px inset yellow, 0px 0px 40px 15px inset green, 0px 0px 45px 20px inset rgb(0, 255, 221), 0px 0px 50px 25px inset blue, 0px 0px 60px 30px purple inset;
+        }
+
+        to {
+            color: rgb(255, 255, 255);
+            font-size: 5rem;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    header {
+        padding: 0 25px 0 25px;
+    }
+
+    .header_logo {
+        width: 150px;
+        border-radius: 0px 0px 60px 60px;
+        background: #C0BA8F;
+        font-size: 1.6rem;
+    }
+
+    ul {
+        font-size: 1.3rem;
+        gap: 35px;
+    }
+
+    .fa-cart-shopping {
+        color: #EDF0F5;
+        font-size: 2rem;
+    }
+
+    .sections_text {
+        font-size: 4.5rem;
+    }
+
+    @keyframes animate {
+        from {
+            color: blue;
+            font-size: 0rem;
+            box-shadow: 0px 0px 50px 2px orangered, 0px 0px 45px 5px yellow, 0px 0px 40px 10px green, 0px 0px 35px 15px rgb(0, 247, 255), 0px 0px 30px 20px blue, 0px 0px 25px 25px purple, 0px 0px 20px 5px inset orangered, 0px 0px 30px 10px inset yellow, 0px 0px 40px 15px inset green, 0px 0px 45px 20px inset rgb(0, 255, 221), 0px 0px 50px 25px inset blue, 0px 0px 60px 30px purple inset;
+        }
+
+        to {
+            color: rgb(255, 255, 255);
+            font-size: 4.5rem;
+            border-radius: 30px;
+        }
+    }
+
+    footer {
+        height: 150px;
+        padding: 47px 18px 47px 18px;
+    }
+
+    .footer_logo {
+        font-size: 2.1rem;
+    }
+
+    .footer_text {
+        font-size: 1.17rem;
+    }
+
+    .footer_icones {
+        font-size: 2.2rem;
+        gap: 30px;
+    }
+
+    /* page 2 */
+
+    .sections_meniu {
+        padding: 65px 0px 65px 0px;
+
+    }
+
+    .card {
+        padding: 35px 25px 35px 25px;
+        margin-top: 10px;
+    }
+
+    .img_div {
+        Height: 230px;
+    }
+
+    .menus_texts {
+        font-size: 1.55rem;
+        margin-top: 30px;
+    }
+
+    /* page 3 */
+
+    .contact_div {
+        width: 95%;
+        padding: 25px 15px 30px 15px;
+        gap: 60px;
+    }
+
+    .calls_div,
+    .emails_div {
+        gap: 25px;
+    }
+
+    .address_div {
+        gap: 30px;
+    }
+
+    .contacts_head {
+        font-size: 1.3rem;
+    }
+
+    .contact_texts {
+        font-size: 1.2rem;
+    }
+
+    .address_div {
+        gap: 27px;
+    }
+
+    #user,
+    #Email {
+        width: 150px;
+    }
+
+    form label {
+        font-weight: 800;
+        font-size: 1.3rem;
+    }
+
+    .massage {
+        height: 90px;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    #textearea {
+        font-size: 0.9rem;
+    }
+
+    .submit {
+        width: 55%;
+        height: 60px;
+        font-family: 'Inter';
+    }
+}
+
+@media(max-width: 768px) {
+    header {
+        padding: 0 12px 0 12px;
+    }
+
+    .header_logo {
+        width: 130px;
+        border-radius: 0px 0px 60px 60px;
+        background: #C0BA8F;
+        font-size: 1.45rem;
+    }
+
+    ul {
+        font-size: 1.25rem;
+        gap: 29px;
+    }
+
+    .fa-cart-shopping {
+        color: #EDF0F5;
+        font-size: 2rem;
+    }
+
+    /* section */
+
+    .section {
+        height: 500px;
+    }
+
+    .sections_text {
+        font-size: 3rem;
+        top: 40%;
+    }
+
+    @keyframes animate {
+        from {
+            color: blue;
+            font-size: 0rem;
+            box-shadow: 0px 0px 50px 2px orangered, 0px 0px 45px 5px yellow, 0px 0px 40px 10px green, 0px 0px 35px 15px rgb(0, 247, 255), 0px 0px 30px 20px blue, 0px 0px 25px 25px purple, 0px 0px 20px 5px inset orangered, 0px 0px 30px 10px inset yellow, 0px 0px 40px 15px inset green, 0px 0px 45px 20px inset rgb(0, 255, 221), 0px 0px 50px 25px inset blue, 0px 0px 60px 30px purple inset;
+        }
+
+        to {
+            color: rgb(255, 255, 255);
+            font-size: 3rem;
+            border-radius: 30px;
+        }
+    }
+
+    /* footer */
+
+    footer {
+        height: 120px;
+        padding: 0 35px 0 35px;
+    }
+
+    .footer_logo {
+        font-size: 2rem;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_icones {
+        font-size: 2rem;
+        gap: 21px;
+    }
+
+    /* page 2 */
+
+    .artwork_head {
+        font-size: 1.25rem;
+        margin-bottom: 17px;
+    }
+
+    .sections_div {
+        width: 90%;
+        padding: 14opx 15px 9px 15px;
+    }
+
+    .artworks_maintext {
+        font-size: 1rem;
+        line-height: 19px;
+    }
+
+    .sections_meniu {
+        width: 100%;
+        Height: 1328px;
+        padding: 246px 0px 46px 0px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .card {
+        width: 45%;
+        padding: 22px 18px 27px 18px;
+        margin-top: 100px;
+    }
+
+    .img_div {
+        Height: 210px;
+    }
+
+    .menus_texts {
+        font-size: 1.5rem;
+        margin-top: 27px;
+    }
+
+    /* page 3 */
+
+    .contact_div {
+        width: 95%;
+        padding: 20px 15px 30px 15px;
+        gap: 60px;
+    }
+
+    .calls_div,
+    .emails_div {
+
+        gap: 20px;
+    }
+
+    .address_div {
+
+        gap: 25px;
+    }
+
+    .contacts_head {
+        font-size: 1rem;
+    }
+
+    .contact_texts {
+        font-size: 0.8rem;
+    }
+
+    .address_div {
+        gap: 25px;
+    }
+
+    #user,
+    #Email {
+        width: 140px;
+    }
+
+    form label {
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+
+    .massage {
+        height: 90px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #textearea {
+        font-size: 0.7rem;
+    }
+
+    .submit {
+        width: 55%;
+        height: 60px;
+        font-family: 'Inter';
+    }
+}
+
+@media(max-width: 680px) {
+    .contact_div {
+        width: 90%;
+        padding: 15px 10px 25px 10px;
+        gap: 50px;
+    }
+
+    .calls_div,
+    .emails_div {
+
+        gap: 15px;
+    }
+
+    .address_div {
+
+        gap: 15px;
+    }
+
+    .contacts_head {
+        font-size: 0.6rem;
+    }
+
+    .contact_texts {
+        font-size: 0.6rem;
+    }
+
+    .address_div {
+        gap: 25px;
+    }
+
+    #user,
+    #Email {
+        width: 130px;
+    }
+
+    form label {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .massage {
+        height: 70px;
+        margin-top: 30px;
+        margin-bottom: 20Px;
+    }
+
+    #textearea {
+        font-size: 0.7rem;
+    }
+
+    .submit {
+        width: 50%;
+        height: 55px;
+        font-family: 'Inter';
+    }
+}
+
+@media(max-width: 600px) {
+    header {
+        padding: 0 10px 0 10px;
+    }
+
+    .header_logo {
+        width: 110px;
+        border-radius: 0px 0px 60px 60px;
+        background: #C0BA8F;
+        font-size: 1.2rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+        gap: 20px;
+    }
+
+    .fa-cart-shopping {
+        color: #EDF0F5;
+        font-size: 1.5rem;
+    }
+
+    /* section */
+
+    @keyframes animate {
+        from {
+            color: blue;
+            font-size: 0rem;
+            box-shadow: 0px 0px 50px 2px orangered, 0px 0px 45px 5px yellow, 0px 0px 40px 10px green, 0px 0px 35px 15px rgb(0, 247, 255), 0px 0px 30px 20px blue, 0px 0px 25px 25px purple, 0px 0px 20px 5px inset orangered, 0px 0px 30px 10px inset yellow, 0px 0px 40px 15px inset green, 0px 0px 45px 20px inset rgb(0, 255, 221), 0px 0px 50px 25px inset blue, 0px 0px 60px 30px purple inset;
+        }
+
+        to {
+            color: rgb(255, 255, 255);
+            font-size: 2.7rem;
+            border-radius: 30px;
+        }
+    }
+
+    /* footer */
+
+    footer {
+        height: 120px;
+        padding: 47px 25px 47px 25px;
+    }
+
+    .footer_logo {
+        font-size: 1.9rem;
+    }
+
+    .footer_text {
+        display: none;
+    }
+
+    .footer_icones {
+        font-size: 1.8rem;
+        gap: 35px;
+    }
+
+    /* page 2 */
+
+    .artwork_head {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    .sections_div {
+        width: 90%;
+        padding: 30px 10px 10px 10px;
+    }
+
+    .emails_div {
+        margin-top: 102px;
+        margin-bottom: 97px;
+    }
+
+    form label {
+        font-weight: 500px;
+        font-size: 1.25rem;
+    }
+
+    /* PAGE 3 */
+
+    .contact_div {
+        width: 97%;
+        padding: 15px 10px 25px 10px;
+        gap: 30px;
+    }
+
+    .calls_div,
+    .emails_div {
+        gap: 15px;
+    }
+
+    .address_div {
+        gap: 15px;
+    }
+
+    .contacts_head {
+        font-size: 0.6rem;
+    }
+
+    .contact_texts {
+        font-size: 0.6rem;
+    }
+
+    .address_div {
+        gap: 25px;
+    }
+
+    #user,
+    #Email {
+        width: 90px;
+    }
+
+    form label {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .massage {
+        height: 60px;
+        margin-top: 30px;
+        margin-bottom: 20Px;
+    }
+
+    #textearea {
+        font-size: 0.7rem;
+    }
+
+    .submit {
+        width: 60%;
+        height: 55px;
+        font-family: 'Inter';
+    }
+}
