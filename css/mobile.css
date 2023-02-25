@@ -1,0 +1,102 @@
+@media(max-width: 680px) {
+
+    .header_logo {
+        width: 120px;
+        border-radius: 0px 0px 50px 50px;
+        background: #C0BA8F;
+        font-size: 1.25rem;
+    }
+
+    .fa-cart-shopping {
+        display: none;
+    }
+
+    ul {
+        font-size: 1.25rem;
+        gap: 29px;
+        position: fixed;
+        width: 100%;
+        background: #9EAEC5;
+        top: 100px;
+        left: 430px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 40px 0px 35px;
+        transition: all 1s;
+    }
+
+    .burger_button {
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        display: flex;
+    }
+
+    nav ul li a {
+        font-size: 1.25rem;
+    }
+
+    a:hover,
+    a.active {
+        border-bottom: 2px solid rgb(98, 57, 50);
+        padding-bottom: 4px;
+    }
+
+    #burger_bar:checked~ul {
+        left: 0;
+    }
+
+    .section {
+        height: 290px;
+    }
+
+    .sections_text {
+        font-size: 1.5rem;
+    }
+
+    @keyframes animate {
+        from {
+            color: blue;
+            font-size: 0rem;
+            box-shadow: 0px 0px 50px 2px orangered, 0px 0px 45px 5px yellow, 0px 0px 40px 10px green, 0px 0px 35px 15px rgb(0, 247, 255), 0px 0px 30px 20px blue, 0px 0px 25px 25px purple, 0px 0px 20px 5px inset orangered, 0px 0px 30px 10px inset yellow, 0px 0px 40px 15px inset green, 0px 0px 45px 20px inset rgb(0, 255, 221), 0px 0px 50px 25px inset blue, 0px 0px 60px 30px purple inset;
+        }
+
+        to {
+            color: rgb(255, 255, 255);
+            font-size: 1.5rem;
+            border-radius: 30px;
+        }
+    }
+
+    /* footer */
+
+footer{
+    height: 100px;
+    justify-content: center;
+}
+.footer_logo{
+    display: none;
+}
+.footer_logo{
+    
+        display: none;
+}
+.footer_icones{
+    gap: 55px;
+}
+
+/* page 2 */
+
+
+
+
+
+
+
+
+}
