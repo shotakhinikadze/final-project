@@ -1,9 +1,9 @@
-
 .conteiner {
   max-width: 1440px;
   width: 100%;
-font-family: 'rubik';
-font-style: normal;
+  font-family: 'rubik';
+  font-style: normal;
+  margin: 0 auto;
 }
 
 
@@ -21,7 +21,7 @@ header {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: auto;
+  z-index: 10;
 }
 
 .header_logo {
@@ -29,7 +29,7 @@ header {
   font-size: 36px;
   background-color: #bfba8f;
   width: 196px;
-line-height: 100px;
+  line-height: 100px;
   border-radius: 0px 0px 50px 50px;
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@ line-height: 100px;
 }
 
 ul {
-  display: flex ;
+  display: flex;
   gap: 47px;
   font-size: 24px;
 }
@@ -94,7 +94,7 @@ li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin: 0 auto;
 
 }
 
@@ -147,7 +147,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 77px 100px 77px 100px;
-
+  margin: 0 auto
 }
 
 .footer_logo {
@@ -188,24 +188,24 @@ footer {
 
 .footer_icone:hover {
   transform: scale(1.5);
-  }
+}
 
 /* artworks_page */
 
 #messenger:hover {
   color: rgb(46, 46, 255);
-filter: drop-shadow(4px 4px 5px #5c95ff);
+  filter: drop-shadow(4px 4px 5px #5c95ff);
 }
 
 #instagram:hover {
   color: #ff006a;
-filter: drop-shadow(4px 5px 5px #ff388b);
+  filter: drop-shadow(4px 5px 5px #ff388b);
 
 }
 
 #youtube:hover {
   color: red;
-filter: drop-shadow(4px 5px 6px #ff3e3e);
+  filter: drop-shadow(4px 5px 6px #ff3e3e);
 }
 
 
@@ -359,7 +359,7 @@ filter: drop-shadow(4px 5px 6px #ff3e3e);
   transform: scale(1, 2);
   transition: linear .3s;
   color: orange;
-filter: drop-shadow(3px 5px 2px rgb(146, 98, 0));
+  filter: drop-shadow(3px 5px 2px rgb(146, 98, 0));
 }
 
 #maps:hover {
@@ -374,62 +374,73 @@ filter: drop-shadow(3px 5px 2px rgb(146, 98, 0));
   display: flex;
   gap: 40px;
 }
-.address_div{
+
+.address_div {
   display: flex;
   gap: 50px;
 }
-.emails_div{
-  padding: 133px 0 133px 0 ;
+
+.emails_div {
+  padding: 133px 0 133px 0;
 }
-.contacts_head{
+
+.contacts_head {
   font-size: 1.5rem;
   color: #623932;
 }
-.contact_texts{
+
+.contact_texts {
   font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.25rem;
-    color: #000000A3;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #000000A3;
 }
-.form_1{
+
+.form_1 {
   width: 50%;
 }
-.two_forms_div{
+
+.two_forms_div {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .fullname,
-.email_address{
-    width: 47%;
+.email_address {
+  width: 47%;
 }
+
 #user,
-#Email{
+#Email {
   /* width: 100%; */
   background-color: transparent;
   border: none;
-outline: none;
+  outline: none;
   border-bottom: 4px solid #FFFFFF;
   margin-top: 10px;
   font-size: 1rem;
 }
-form label{
+
+form label {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
   color: #F90E0E;
 }
-.messages_div{
+
+.messages_div {
   width: 100%;
-    height: 147px;
-    border: 3px solid #FFFFFF;
-    border-radius: 8px;
-    margin-top: 66px;
-    margin-bottom: 60px;
+  height: 147px;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+  margin-top: 66px;
+  margin-bottom: 60px;
 }
-.massage{
+
+.massage {
   width: 100%;
   font-style: normal;
   font-weight: 300;
@@ -442,7 +453,8 @@ form label{
   outline: none;
   resize: none;
 }
-.submit{
+
+.submit {
   width: 50%;
   height: 88px;
   background-color: #F90E0E;
@@ -452,12 +464,13 @@ form label{
   color: #FFFFFF;
   transition: linear 0.7s;
 }
-.submit:hover{
-color: #F90E0E;
-background-color: #FFFFFF;
-border: 5px dashed #F90E0E ;
-font-size: 2.4em;
-transform: scale(1.17);
-text-shadow: 3px 3px 6px #990000, -2px -2px 4px #ff3a3a;
-box-shadow: 5px 6px 10px #630000;
+
+.submit:hover {
+  color: #F90E0E;
+  background-color: #FFFFFF;
+  border: 5px dashed #F90E0E;
+  font-size: 2.4em;
+  transform: scale(1.17);
+  text-shadow: 3px 3px 6px #990000, -2px -2px 4px #ff3a3a;
+  box-shadow: 5px 6px 10px #630000;
 }
